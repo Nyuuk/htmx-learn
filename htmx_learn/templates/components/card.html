@@ -1,0 +1,8 @@
+{% set book = frappe.db.get_all ("Book", fields = ["name", "title", "author"]) %}
+
+{% for book in book %}
+<div class="h-auto w-auto bg-white border-gray-200 shadow-md shadow-gray-300">
+	<h2>{{book.title}}</h2>
+	<p>{{book.author}}</p>
+</div>
+{% endfor %}

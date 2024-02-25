@@ -4,6 +4,7 @@ app_publisher = "AK"
 app_description = "App for Learn how to iplement HTMX into Frappe"
 app_email = "dnanfab@gmail.com"
 app_license = "mit"
+app_include_css = ['public/tailwind.css']
 # required_apps = []
 
 # Includes in <head>
@@ -226,4 +227,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

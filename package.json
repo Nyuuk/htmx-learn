@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "name": "htmx_learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adnan <dnanfab@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./htmx_learn/public/css/tailwind.before.css -o ./htmx_learn/public/css/tailwind.css",
+    "dev": "npx tailwindcss -i ./htmx_learn/public/css/tailwind.before.css -o ./htmx_learn/public/css/tailwind.css --watch",
+    "copy": "cp ./htmx_learn/public/index.html ./htmx_learn/www/htmx_learn.html"
+  }
+}
